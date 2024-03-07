@@ -9,21 +9,27 @@ import java.util.Scanner;
 public class CalculadoraIPI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         double ipiPorcentagem, valorUnitarioPeca1, valorUnitarioPeca2, totalSemIPI, ipi, totalComIPI;
         int codigoPeca1, quantidadePeca1, codigoPeca2, quantidadePeca2;
-        
+
         System.out.print("Digite a porcentagem do IPI a ser acrescido: ");
         ipiPorcentagem = scanner.nextDouble();
 
         System.out.println("Informe os dados da peça 1:");
+        System.out.println("Codigo:");
         codigoPeca1 = scanner.nextInt();
+        System.out.println("Valor Unitario Peca:");
         valorUnitarioPeca1 = scanner.nextDouble();
+        System.out.println("Quantidade Peca:");
         quantidadePeca1 = scanner.nextInt();
 
         System.out.println("Informe os dados da peça 2:");
+        System.out.println("Codigo:");
         codigoPeca2 = scanner.nextInt();
+        System.out.println("Valor Unitario Peca:");
         valorUnitarioPeca2 = scanner.nextDouble();
+        System.out.println("Quantidade Peca:");
         quantidadePeca2 = scanner.nextInt();
 
         // Calcula o valor total das peças sem o IPI
