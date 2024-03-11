@@ -1,10 +1,3 @@
-/******************************************************************************
-
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
-*******************************************************************************/
 /*Raissa Rodrigues - Sistemas de Informação
  * 19 .Escreva um programa que calcule os quadrados e cubos dos números 
  de 0 a 10 e imprima os valores resultantes em formato de tabela como a seguir:
